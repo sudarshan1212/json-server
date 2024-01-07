@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON Server</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="container mx-auto">
+        <h1 class="text-center text-4xl text-indigo-400 py-12">JSON Server</h1>
+        <table class="min-w-full divide-y divide-gray-200">
+            <thead class="bg-gray-50">
+                <tr>
+                    <th class="px-6 py-3 text-left text-x font-medium text-gray-500 uppercase tracking-wider">product</th>
+                    <th class="px-6 py-3 text-left text-x font-medium text-gray-500 uppercase tracking-wider">status</th>
+                    <th class="px-6 py-3 text-left text-x font-medium text-gray-500 uppercase tracking-wider">brand</th>
+                </tr>
+            </thead>
+            <tbody class="bg-white divide-y divide-gray-200" id="tbody">
+             <tr>
+                <td class="px-6 py-4 whitespace-nowrap">
+                    <div class="flex items-center">
+                        <div class="flex flex-shrink-0 h-10 w-10">
+                            <img src="./favorite-3.png" srcset="">
+                            <div class="ml-4">
+                                <div class="text-sm font-medium text-gray-900 uppercase ">
+                                    headphone
+                                </div>
+                                <div class="text-sm text-gray-500">
+                                    red color
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td class="px-6 py-4 whitespace-nowrap">
+                     <span class="px-2 inline-flex text-x font-semibold rounded-full bg-green-100 text-green-800">
+                        Available
+                     </span>
+                </td>
+                <td class="px-6 py-4 whitespace-nowrap">
+                    <span class="tex-sm text-gray-900">
+                        JBL
+                    </span>
+               </td>
+             </tr>
+            </tbody>
+        </table>
+    </div>
+ <script src="./index.js"></script>
+</body>
+</html>

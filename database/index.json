@@ -1,0 +1,27 @@
+{
+   "user":[{
+    "id":"1",
+    "name":"headset",
+    "email":"redcolor",
+    "profile":"favorite-3.png",
+    "status":"available",
+    "brand":"JBL"
+   },
+   {
+    "id":"2",
+    "name":"headset",
+    "email":"redcolor",
+    "profile":"favorite-3.png",
+    "status":"available",
+    "brand":"JBL"
+   },{
+    "id":"3",
+    "name":"headset",
+    "email":"redcolor",
+    "profile":"favorite-3.png",
+    "status":"available",
+    "brand":"JBL"
+   }
+   
+   ]
+}
